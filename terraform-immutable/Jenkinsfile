@@ -1,0 +1,6 @@
+@Library('roboshop-shared-library@main') _
+
+env.REPONAME="payment"
+env.TERRAFORM_DIR="terraform-immutable"
+terraform()
+
